@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header-link {
+    /* outline: 2px solid lime; */
+    display: flex;
+    gap: 20px;
+}
+
+.Header-logo {
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    color: #f9faf8;
+    font-size: 24px;
+    text-decoration: none;
+}
